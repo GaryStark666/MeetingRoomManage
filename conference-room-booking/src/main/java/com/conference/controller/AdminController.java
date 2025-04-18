@@ -8,5 +8,9 @@ import com.conference.service.AdminService;
 public class AdminController {
 
     private AdminService adminService;
+    //测试拉取
+    public AdminController(AdminService adminService) {
+        this.adminService = adminService;
+    }
 
 }
